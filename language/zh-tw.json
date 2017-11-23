@@ -95,27 +95,27 @@
           "default": "You got :num out of :total points"
         },
         {
-          "label": "可用的提示(不顯示)",
+          "label": "可用的提示(不顯示) ",
           "default": "可用的提示",
           "description": "做為閱讀器導讀文字"
         },
         {
-          "label": "可用的回饋(不顯示)",
+          "label": "可用的回饋(不顯示) ",
           "default": "可用的回饋",
           "description": "做為閱讀器導讀文字
         },
         {
-          "label": "閱讀回饋(不顯示)",
+          "label": "閱讀回饋(不顯示) ",
           "default": "閱讀回饋",
           "description": "做為閱讀器導讀文字"
         },
         {
-          "label": "錯誤答案(不顯示)",
+          "label": "錯誤答案(不顯示) ",
           "default": "錯誤答案",
           "description": "做為閱讀器導讀文字"
         },
         {
-          "label": "正確答案(不顯示)",
+          "label": "正確答案(不顯示) ",
           "default": "正確答案",
           "description": "做為閱讀器導讀文字"
         },
