@@ -1,43 +1,43 @@
 {
   "semantics": [
     {
-      "label": "Media",
+      "label": "媒體",
       "fields": [
         {
-          "label": "Type",
-          "description": "Optional media to display above the question."
+          "label": "類型",
+          "description": "選填。可採用媒體輔助表達問題."
         }
       ]
     },
     {
-      "label": "Question"
+      "label": "問題"
     },
     {
-      "label": "Available options",
-      "entity": "option",
+      "label": "可用選項",
+      "entity": "選項",
       "field": {
-        "label": "Option",
+        "label": "選項",
         "fields": [
           {
-            "label": "Text"
+            "label": "文字"
           },
           {
-            "label": "Correct"
+            "label": "正確解答"
           },
           {
-            "label": "Tips and feedback",
+            "label": "提示及回饋",
             "fields": [
               {
-                "label": "Tip text",
-                "description": "Hint for the user. This will appear before user checks his answer/answers."
+                "label": "提示文字",
+                "description": "提示給使用者。將在使用者檢查答案前顯示."
               },
               {
-                "label": "Message displayed if answer is selected",
-                "description": "Message will appear below the answer on \"check\" if this answer is selected."
+                "label": "作答後顯示訊息",
+                "description": "作答時，訊息內容將顯示在＂檢查＂功能鈕下方."
               },
               {
-                "label": "Message displayed if answer is not selected",
-                "description": "Message will appear below the answer on \"check\" if this answer is not selected."
+                "label": "未作答時顯示訊息",
+                "description": "未作答時，訊息內容將顯示在＂檢查＂功能鈕下方."
               }
             ]
           }
@@ -45,26 +45,26 @@
       }
     },
     {
-      "label": "Overall Feedback",
+      "label": "整體回饋",
       "fields": [
         {
           "widgets": [
             {
-              "label": "Default"
+              "label": "預設"
             }
           ],
-          "label": "Define custom feedback for any score range",
-          "description": "Click the \"Add range\" button to add as many ranges as you need. Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
-          "entity": "range",
+          "label": "定義任意分數範圍的回饋",
+          "description": "點擊＂新增範圍＂功能鈕以添加您所需要的範圍. 例如: 0-20% 低分, 21-91% 平均得分, 91-100% 高分!",
+          "entity": "範圍",
           "field": {
             "fields": [
               {
-                "label": "Score Range"
+                "label": "得分範圍"
               },
               {},
               {
-                "label": "Feedback for defined score range",
-                "placeholder": "Fill in the feedback"
+                "label": "回饋定義的得分範圍",
+                "placeholder": "填寫回饋"
               }
             ]
           }
@@ -72,122 +72,122 @@
       ]
     },
     {
-      "label": "User interface translations for multichoice",
+      "label": "使用者介面翻譯-多重選擇題",
       "fields": [
         {
-          "label": "Check answer button label",
-          "default": "Check"
+          "label": "檢查答案功能鈕名稱",
+          "default": "檢查"
         },
         {
-          "label": "Show solution button label",
-          "default": "Show solution"
+          "label": "查看解法功能鈕名稱",
+          "default": "查看解法"
         },
         {
-          "label": "Retry button label",
-          "default": "Retry"
+          "label": "重試功能鈕名稱",
+          "default": "重試"
         },
         {
-          "label": "Tip label",
-          "default": "Show tip"
+          "label": "提示名稱",
+          "default": "顯示提示"
         },
         {
           "label": "Textual representation of the score bar for those using a readspeaker",
           "default": "You got :num out of :total points"
         },
         {
-          "label": "Tip Available (not displayed)",
-          "default": "Tip available",
-          "description": "Accessibility text used for readspeakers"
+          "label": "可用的提示(不顯示)",
+          "default": "可用的提示",
+          "description": "做為閱讀器導讀文字"
         },
         {
-          "label": "Feedback Available (not displayed)",
-          "default": "Feedback available",
-          "description": "Accessibility text used for readspeakers"
+          "label": "可用的回饋(不顯示)",
+          "default": "可用的回饋",
+          "description": "做為閱讀器導讀文字
         },
         {
-          "label": "Read Feedback (not displayed)",
-          "default": "Read feedback",
-          "description": "Accessibility text used for readspeakers"
+          "label": "閱讀回饋(不顯示)",
+          "default": "閱讀回饋",
+          "description": "做為閱讀器導讀文字"
         },
         {
-          "label": "Wrong Answer (not displayed)",
-          "default": "Wrong answer",
-          "description": "Accessibility text used for readspeakers"
+          "label": "錯誤答案(不顯示)",
+          "default": "錯誤答案",
+          "description": "做為閱讀器導讀文字"
         },
         {
-          "label": "Correct Answer (not displayed)",
-          "default": "Correct answer",
-          "description": "Accessibility text used for readspeakers"
+          "label": "正確答案(不顯示)",
+          "default": "正確答案",
+          "description": "做為閱讀器導讀文字"
         },
         {
-          "label": "Option should have been checked",
+          "label": "選項應被勾選",
           "default": "Should have been checked"
         },
         {
-          "label": "Option should not have been checked",
+          "label": "選項不應被勾選",
           "default": "Should not have been checked"
         },
         {
-          "label": "Text for \"Requires answer\" message",
+          "label": "必填答案顯示訊息",
           "default": "Please answer before viewing the solution"
         }
       ]
     },
     {
-      "label": "Behavioural settings",
+      "label": "行為設定",
       "description": "These options will let you control how the task behaves.",
       "fields": [
         {
-          "label": "Enable \"Retry\" button"
+          "label": "啟用＂重試＂功能鈕"
         },
         {
-          "label": "Enable \"Show Solution\" button"
+          "label": "啟用＂查看解法＂功能鈕"
         },
         {
-          "label": "Enable \"Check\" button"
+          "label": "啟用＂確認＂功能鈕"
         },
         {
-          "label": "Question Type",
-          "description": "Select the look and behaviour of the question.",
+          "label": "問題類型",
+          "description": "選擇問題的外觀及行為.",
           "options": [
             {
-              "label": "Automatic"
+              "label": "自動"
             },
             {
-              "label": "Multiple Choice (Checkboxes)"
+              "label": "複選題(勾選框)"
             },
             {
-              "label": "Single Choice (Radio Buttons)"
+              "label": "單選題(單選按鈕) "
             }
           ]
         },
         {
-          "label": "Give one point for the whole task",
-          "description": "Enable to give a total of one point for multiple correct answers. This will not be an option in \"Single answer\" mode."
+          "label": "給予整個任務1分",
+          "description": "啟用多個正確答案總共提供1分。”單一答案”的問題類型不適用."
         },
         {
-          "label": "Randomize answers",
-          "description": "Enable to randomize the order of questions on display."
+          "label": "隨機作答",
+          "description": "啟用隨機顯示問題順序."
         },
         {
-          "label": "Require answer before the solution can be viewed"
+          "label": "查看解決方案前須先完成作答"
         },
         {
-          "label": "Disable image zooming for question image"
+          "label": "檢視問題圖片時不能使用縮放功能"
         },
         {
-          "label": "Show confirmation dialog on \"Check\""
+          "label": "點選＂確認＂後顯示確認對話視窗"
         },
         {
-          "label": "Show confirmation dialog on \"Retry\""
+          "label": "點選＂重試＂後顯示確認對話視窗"
         },
         {
-          "label": "Automatically check answers",
-          "description": "Enabling this option will make accessibility suffer, make sure you know what you're doing."
+          "label": "自動檢查答案",
+          "description": "啟用此選項時將有礙輔助功能，請再次確認您的選擇."
         },
         {
-          "label": "Pass percentage",
-          "description": "This setting often won't have any effect. It is the percentage of the total score required for getting 1 point when one point for the entire task is enabled, and for getting result.success in xAPI statements."
+          "label": "通過率",
+          "description": "啟用此設定時通常不會有其他影響. 當啟用給予整個任務1分時所需的得分百分比,以及在 xAPI 語法中作為總得分的百分比."
         },
         {
           "label": "Show score points",
@@ -196,44 +196,44 @@
       ]
     },
     {
-      "label": "Check confirmation dialog",
+      "label": "確認對話視窗:完成?",
       "fields": [
         {
-          "label": "Header text",
-          "default": "Finish ?"
+          "label": "標題文字",
+          "default": "完成?"
         },
         {
-          "label": "Body text",
-          "default": "Are you sure you wish to finish ?"
+          "label": "內容文字",
+          "default": "您確認已經完成了?"
         },
         {
-          "label": "Cancel button label",
-          "default": "Cancel"
+          "label": "取消功能鈕名稱",
+          "default": "取消"
         },
         {
-          "label": "Confirm button label",
-          "default": "Finish"
+          "label": "確認功能鈕名稱",
+          "default": "確定完成"
         }
       ]
     },
     {
-      "label": "Retry confirmation dialog",
+      "label": "確認對話視窗:重試?",
       "fields": [
         {
-          "label": "Header text",
-          "default": "Retry ?"
+          "label": "標題文字",
+          "default": "重試?"
         },
         {
-          "label": "Body text",
-          "default": "Are you sure you wish to retry ?"
+          "label": "內容文字",
+          "default": "您確認要重試一次?"
         },
         {
-          "label": "Cancel button label",
-          "default": "Cancel"
+          "label": "取消功能鈕名稱",
+          "default": "取消"
         },
         {
-          "label": "Confirm button label",
-          "default": "Confirm"
+          "label": "確認功能鈕名稱",
+          "default": "確定重試"
         }
       ]
     }
